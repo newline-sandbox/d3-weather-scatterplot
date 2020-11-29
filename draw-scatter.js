@@ -1,7 +1,7 @@
 async function drawScatter() {
 
   // 1. Access data
-  let dataset = await d3.json("./../../my_weather_data.json")
+  let dataset = await d3.json("./my_weather_data.json")
 
   const xAccessor = d => d.dewPoint
   const yAccessor = d => d.humidity
